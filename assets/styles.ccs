@@ -1,90 +1,80 @@
 body {
-        font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
+        margin: 0;
+          padding: 0;
+            background-color: #f5f5f5;
+              color: #333;
 }
 
 header {
-        background-color: #008080;
-            color: white;
-                padding: 10px;
-                    text-align: center;
+      background-color: #0d6efd;
+        color: white;
+          padding: 20px 0;
+            text-align: center;
 }
 
-header nav ul {
-        list-style-type: none;
-            padding: 0;
-}
-
-header nav ul li {
-        display: inline;
-            margin-right: 10px;
+nav a {
+      color: white;
+        margin: 0 10px;
 }
 
 section {
-        margin: 20px;
+      margin: 2em 0;
+        padding: 0 1em;
 }
 
-h1, h2, h3 {
-        color: #008080;
+h1, h2 {
+      color: #0d6efd;
 }
 
-form label {
-        display: block;
-            margin-top: 10px;
+h1 {
+      font-size: 2.5em;
+        font-weight: bold;
 }
 
-form input[type="text"], form input[type="email"], form textarea {
-        width: 100%;
-            padding: 5px;
+h2 {
+      font-size: 2em;
+        margin-top: 1em;
 }
 
-form input[type="submit"] {
-        margin-top: 10px;
-            padding: 5px 20px;
+p {
+      font-size: 1em;
+        line-height: 1.5em;
+          color: #333;
 }
 
-#social a {
-        margin-right: 10px;
+form input, form textarea {
+      width: 100%;
+        margin-bottom: 1em;
 }
 
-nav ul {
-            transition: max-height 0.2s ease-out;
-                max-height: 0px;
-                    overflow: hidden;
+button {
+      background-color: #0d6efd;
+        color: white;
+          border: none;
+            padding: 10px 20px;
+              cursor: pointer;
+                transition: background-color 0.3s ease;
 }
 
-nav ul li {
-            display: block;
-                margin-bottom: 10px;
+button:hover {
+      background-color: #0a58ca;
 }
 
-nav ul.show {
-            max-height: 500px;
+footer {
+      background-color: #333;
+        color: white;
+          text-align: center;
+            padding: 10px 0;
 }
 
-/* ...Existing code... */
-
-.story {
-            border: 1px solid #008080;
-                padding: 10px;
-                    margin-bottom: 10px;
-                        cursor: pointer;
+@media (max-width: 600px) {
+      h1 {
+            font-size: 2em;
+      }
 }
 
-#story-details {
-            position: fixed;
-                top: 50%;
-                    left: 50%;
-                        transform: translate(-50%, -50%);
-                            background-color: white;
-                                padding: 20px;
-                                    border: 1px solid #008080;
-}
-
-/* ...Existing code... */
-
-}
-}
-
+      }
 }
 }
 }
